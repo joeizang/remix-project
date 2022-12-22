@@ -1,5 +1,5 @@
 var async = require('async')
-var ethutil = require('ethereumjs-util')
+var ethutil = require('@ethereumjs/util')
 var remixLib = require('@remix-project/remix-lib')
 import { Plugin } from '@remixproject/engine'
 import * as packageJson from '../../../../.././../../package.json'

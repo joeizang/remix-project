@@ -2,7 +2,7 @@
 import { RunBlockResult, RunTxResult } from '@ethereumjs/vm'
 import { Transaction, FeeMarketEIP1559Transaction } from '@ethereumjs/tx'
 import { Block } from '@ethereumjs/block'
-import { BN, bufferToHex, Address } from 'ethereumjs-util'
+import { BN, bufferToHex, Address } from '@ethereumjs/util'
 import type { Account } from '@ethereumjs/util'
 import { EventManager } from '../eventManager'
 import { LogsManager } from './logsManager'

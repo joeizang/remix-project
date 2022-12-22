@@ -1,4 +1,4 @@
-import { BN, privateToAddress, toChecksumAddress, isValidPrivate, Address } from 'ethereumjs-util'
+import { BN, privateToAddress, toChecksumAddress, isValidPrivate, Address } from '@ethereumjs/util'
 const Web3EthAccounts = require('web3-eth-accounts');
 import * as crypto from 'crypto'
 

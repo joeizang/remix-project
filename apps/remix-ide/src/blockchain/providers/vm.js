@@ -1,5 +1,5 @@
 const Web3 = require('web3')
-const { BN, privateToAddress, hashPersonalMessage } = require('ethereumjs-util')
+const { BN, privateToAddress, hashPersonalMessage } = require('@ethereumjs/util')
 const { extend } = require('@remix-project/remix-simulator')
 class VMProvider {
   constructor (executionContext) {

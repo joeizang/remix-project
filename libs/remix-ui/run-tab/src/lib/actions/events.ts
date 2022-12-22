@@ -4,7 +4,7 @@ import { setExecutionContext, setFinalContext, updateAccountBalances } from "./a
 import { addExternalProvider, addInstance, removeExternalProvider, setNetworkNameFromProvider } from "./actions"
 import { addDeployOption, clearAllInstances, clearRecorderCount, fetchContractListSuccess, resetUdapp, setCurrentContract, setCurrentFile, setLoadType, setProxyEnvAddress, setRecorderCount, setRemixDActivated, setSendValue } from "./payload"
 import { CompilerAbstract } from '@remix-project/remix-solidity'
-import * as ethJSUtil from 'ethereumjs-util'
+import * as ethJSUtil from '@ethereumjs/util'
 import Web3 from 'web3'
 import { Plugin } from "@remixproject/engine"
 const _paq = window._paq = window._paq || []

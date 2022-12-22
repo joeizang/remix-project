@@ -2,11 +2,11 @@
 import { Block } from '@ethereumjs/block'
 import { Transaction } from '@ethereumjs/tx'
 import VM from '@ethereumjs/vm'
-import { rlp, keccak, bufferToHex } from 'ethereumjs-util'
+import { rlp, keccak, bufferToHex } from '@ethereumjs/util'
 import { extendWeb3 } from '../src/init' 
-const utileth = require('ethereumjs-util')
+const utileth = require('@ethereumjs/util')
 const Tx = require('@ethereumjs/tx').Transaction
-const BN = require('ethereumjs-util').BN
+const BN = require('@ethereumjs/util').BN
 const remixLib = require('@remix-project/remix-lib')
 const { Provider, extend } = require('@remix-project/remix-simulator')
 const Web3 = require('web3')

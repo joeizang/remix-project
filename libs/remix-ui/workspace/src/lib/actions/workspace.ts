@@ -1,5 +1,5 @@
 import React from 'react'
-import { bufferToHex, keccakFromString } from 'ethereumjs-util'
+import { bufferToHex, keccakFromString } from '@ethereumjs/util'
 import axios, { AxiosResponse } from 'axios'
 import { addInputFieldSuccess, cloneRepositoryFailed, cloneRepositoryRequest, cloneRepositorySuccess, createWorkspaceError, createWorkspaceRequest, createWorkspaceSuccess, displayNotification, displayPopUp, fetchWorkspaceDirectoryError, fetchWorkspaceDirectoryRequest, fetchWorkspaceDirectorySuccess, hideNotification, setCurrentWorkspace, setCurrentWorkspaceBranches, setCurrentWorkspaceCurrentBranch, setDeleteWorkspace, setMode, setReadOnlyMode, setRenameWorkspace, setCurrentWorkspaceIsGitRepo, setGitConfig } from './payload'
 import { addSlash, checkSlash, checkSpecialChars } from '@remix-ui/helper'

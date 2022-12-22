@@ -1,6 +1,6 @@
 /* global ethereum */
 'use strict'
-import { rlp, keccak, bufferToHex } from 'ethereumjs-util'
+import { rlp, keccak, bufferToHex } from '@ethereumjs/util'
 import { execution } from '@remix-project/remix-lib'
 const { LogsManager } = execution
 import { VmProxy } from './VmProxy'

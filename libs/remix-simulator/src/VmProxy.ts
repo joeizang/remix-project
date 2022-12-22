@@ -4,7 +4,7 @@ import { helpers } from '@remix-project/remix-lib'
 const  { normalizeHexAddress } = helpers.ui
 import { ConsoleLogs } from '@remix-project/remix-lib'
 import { isBigNumber } from 'web3-utils'
-import { toChecksumAddress, BN, keccak, bufferToHex, Address, toBuffer } from 'ethereumjs-util'
+import { toChecksumAddress, BN, keccak, bufferToHex, Address, toBuffer } from '@ethereumjs/util'
 import utils from 'web3-utils'
 import { ethers } from 'ethers'
 import { VMContext } from './vm-context'
